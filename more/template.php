@@ -161,7 +161,6 @@ use Bitrix\Main\Context;
         $arMore = [
             "pager_html" => $APPLICATION->GetViewContent('buferPager'),
             "content_html"  => "",
-            "url" => $arResult["sUrlPath"]."?".$strNavQueryString."PAGEN_".$arResult["NavNum"]."=".($arResult["NavPageNomer"]+1),
         ];
     }
     ?>
