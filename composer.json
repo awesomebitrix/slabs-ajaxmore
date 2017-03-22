@@ -1,0 +1,14 @@
+{
+    "name": "starlabs/system.pagenavigation",
+    "description": "Универсальная реализация кнопки 'Показать еще' для стандартного компонента 'system.pagenavigation', подгружающая контент многостраничного компонента.",
+    "type": "bitrix-d7-template",
+    "authors": [
+        {
+            "name": "Nathan Stark",
+            "email": "nathan@starlabs.su"
+        }
+    ],
+    "require": {
+        "composer/installers": "~1"
+    }
+}
